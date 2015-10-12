@@ -88,7 +88,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libacdbloader
-LOCAL_SRC_FILES := libacdbloader.so
+LOCAL_SRC_FILES := vendor/lib/libacdbloader.so
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_PATH := $(TARGET_OUT)/lib
